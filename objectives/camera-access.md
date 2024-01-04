@@ -174,7 +174,7 @@ $bytes = [Convert]::FromBase64String($base64)
 
 When I opened up the jpg, I was able to see the TODO list to finish the challenge!
 
-![image](../img/camera-access.jpg))
+![image](../img/camera-access.jpg)
 
 ## Resources
 
