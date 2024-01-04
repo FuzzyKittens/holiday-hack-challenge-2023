@@ -1,5 +1,7 @@
 # naan <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Shifty McShuffles is hustling cards on Film Noir Island. Outwit that meddling elf and win!
@@ -37,4 +39,4 @@ Because Python is actually “duck typed”, and the inputs aren't properly vali
 
 ## Resources
 
-https://www.tenable.com/blog/python-nan-injection
+[Python NaN Injection](https://www.tenable.com/blog/python-nan-injection)

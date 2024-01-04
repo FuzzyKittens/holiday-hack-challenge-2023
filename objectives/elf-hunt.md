@@ -1,5 +1,7 @@
 # elf-hunt <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Piney Sappington needs a lesson in JSON web tokens. Hack Elf Hunt and score 75 points.

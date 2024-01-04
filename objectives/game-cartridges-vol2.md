@@ -1,5 +1,7 @@
 # game-cartridges-vol2 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Find the second Gamegosling cartridge and beat the game
@@ -105,6 +107,6 @@ That's our answer - enter GL0RY into the challenge!
 
 ## Resources
 
-https://mgba.io/
+[mGBA](https://mgba.io/)
 
-https://morsedecoder.com/
+[Morse Decoder](https://morsedecoder.com/)

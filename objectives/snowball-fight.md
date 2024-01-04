@@ -1,5 +1,7 @@
 # snowball-fight <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Visit Christmas Island and talk to Morcel Nougat about this great new game. Team up with another player and show Morcel how to win against Santa!
@@ -72,7 +74,5 @@ santaObject.name = 'Getting defeated'
 ```
 
 ## Alternate approach
-
-
 
 ## Resources

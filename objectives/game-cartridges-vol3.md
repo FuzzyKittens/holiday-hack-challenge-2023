@@ -1,5 +1,7 @@
 # game-cartridges-vol3 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Find the third Gamegosling cartridge and beat the game
@@ -133,11 +135,10 @@ GLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORY!
 
 ## Resources
 
-https://gbdev.io/
+[GB Dev](https://gbdev.io/)
 
-https://bgb.bircd.org/
+[BGB](https://bgb.bircd.org/)
 
-https://github.com/NationalSecurityAgency/ghidra
+[Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
-https://github.com/Gekkio/GhidraBoy 
-
+[GhidraBoy](https://github.com/Gekkio/GhidraBoy)

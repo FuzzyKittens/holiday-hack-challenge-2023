@@ -1,5 +1,7 @@
 # bonus-fishing-mastery <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 Catch at least one of each species of fish that live around Geese islands. When you're done, report your findings to Poinsettia McMittens.
 
@@ -935,20 +937,8 @@ Websockets could also be used to simplify automation.
 
 ## Resources
 
-https://javascript.info/websocket
+[websockets](https://javascript.info/websocket)
 
-https://github.com/autokey/autokey
+[autokey](https://github.com/autokey/autokey)
 
-https://www.autoitscript.com/site/
-
-
-
-
-
-
-
-
-
-
-
-
+[autoitscript](https://www.autoitscript.com/site/)

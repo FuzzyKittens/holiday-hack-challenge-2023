@@ -1,5 +1,7 @@
 # surprise-once-complete
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Complete all challenges and come back for surprise.
@@ -20,14 +22,8 @@ Initial conversation:
 
 ## Hints
 
-
-
 ## Approach
 
-
-
 ## Alternate approach
-
-
 
 ## Resources

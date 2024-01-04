@@ -1,5 +1,7 @@
 # hashcat <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 Eve Snowshoes is trying to recover a password. Head to the Island of Misfit Toys and take a crack at it!
 
@@ -172,3 +174,5 @@ elf@a2f91bdb995f:/bin$
 ```
 
 ## Alternate approach
+
+## Resources

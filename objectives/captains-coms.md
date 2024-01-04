@@ -1,5 +1,7 @@
 # captains-coms <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 Speak with Chimney Scissorsticks on Steampunk Island about the interesting things the captain is hearing on his new Software Defined Radio. You'll need to assume the GeeseIslandsSuperChiefCommunicationsOfficer role.
 
@@ -234,5 +236,5 @@ Mission accomplished!
 ## Alternative Approach
 
 ## Resources
-https://www.numbers-stations.com/english/e03-the-lincolnshire-poacher/
+[Lincolnshire Poacher](https://www.numbers-stations.com/english/e03-the-lincolnshire-poacher/)
 

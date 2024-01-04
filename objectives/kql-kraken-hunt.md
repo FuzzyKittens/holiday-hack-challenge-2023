@@ -1,5 +1,7 @@
 # kql-kraken-hunt <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Use Azure Data Explorer to [uncover misdeeds](https://detective.kusto.io/sans2023) in Santa's IT enterprise. Go to Film Noir Island and talk to Tangle Coalbox for more information/
@@ -144,4 +146,4 @@ Beware the Cube that Wombles
 
 ## Resources
 
-https://detective.kusto.io/sans2023
+[Kusto SANS 2023](https://detective.kusto.io/sans2023)

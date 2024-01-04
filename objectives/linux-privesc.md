@@ -1,5 +1,7 @@
 # linux-privesc <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 Rose mold is in Ostrich Saloon on the Island of Misfit Toys. Give her a hand with escalation for a tip about hidden islands.
 
@@ -91,3 +93,5 @@ Who delivers Christmas presents?
 When you execute runmetoanswer, your answer is case sensitive :)
 
 ## Alternate approach
+
+## Resources

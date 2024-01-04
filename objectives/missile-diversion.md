@@ -1,4 +1,7 @@
 # missile-diversion <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/>
+
+[< Back Home](../README.md)
+
 ## Objective
 
 Thwart Jack's evil plan by re-aiming his missile at the Sun.
@@ -597,10 +600,10 @@ Remove-Item -Path $serializationDumperLocalPath
 
 ## Resources
 
-https://www.youtube.com/watch?v=qQaA1w6WjGw
+[Henry Reed Space System Vulnerabilities](https://www.youtube.com/watch?v=qQaA1w6WjGw)
 
-https://en.wikipedia.org/wiki/Object_storage
+[Object Storage](https://en.wikipedia.org/wiki/Object_storage)
 
-https://snyk.io/blog/serialization-and-deserialization-in-java/
+[Java Serialization](https://snyk.io/blog/serialization-and-deserialization-in-java/)
 
-https://github.com/NickstaDB/SerializationDumper?tab=readme-ov-file
+[Java Serialization Dumper](https://github.com/NickstaDB/SerializationDumper?tab=readme-ov-file)

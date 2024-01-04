@@ -1,5 +1,7 @@
 # linux-101 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 Visit Ginger Breddie in Santa's Shack on Chrismas
 Island to help him with some basic Linux tasks.
@@ -54,3 +56,5 @@ kill 5444
 ```
 
 ## Alternate approach
+
+## Resources

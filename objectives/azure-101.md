@@ -1,5 +1,7 @@
 # azure-101 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+[< Back Home](../README.md)
+
 ## Objective
 
 Help Sparkle Redberry with some Azure command line skills. Find the elf and the terminal on Christmas Island.
@@ -50,4 +52,4 @@ az vm run-command invoke --resource-group northpole-rg2 --name NP-VM1 --command-
 
 ## Resources
 
-https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest
+[Azure CLI Reference](https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
