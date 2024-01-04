@@ -11,6 +11,7 @@
 
 
 ## Challenges
+
 | Challenge | Location | NPC | Map and Entities | Solution |
 | --- | --- | --- | --- | --- |
 | Holiday Hack Orientation | Christmas Island: Orientiation | Jingle Ringford | [Map and Entities](/maps/staging.md) | [Solution](/objectives/orientation.md) |
