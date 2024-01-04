@@ -1,5 +1,7 @@
 # Ostrich Saloon
 
+[< Back Home](../README.md)
+
 ## Map
 
 ```

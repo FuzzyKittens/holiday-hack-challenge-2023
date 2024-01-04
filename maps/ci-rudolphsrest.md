@@ -1,5 +1,7 @@
 # Rudolph's Rest Resort
 
+[< Back Home](../README.md)
+
 ## Map
 
 ```

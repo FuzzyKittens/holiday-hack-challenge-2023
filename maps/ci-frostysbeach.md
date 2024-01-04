@@ -1,5 +1,7 @@
 # Frosty's Beach
 
+[< Back Home](../README.md)
+
 ## Map
 
 ```
