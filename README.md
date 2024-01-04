@@ -1,6 +1,6 @@
 # SANS Holiday Hack Challenge 2023
 
-[![image](./img/sans-banner.png)
+![image](./img/sans-banner.png)
 
 **Character: RealCyberDude**
 
