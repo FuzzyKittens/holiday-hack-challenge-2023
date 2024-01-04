@@ -35,11 +35,11 @@ As an alternate approach, I could use the websocket to emit messages until the l
 
 Simply start the game with four wheels:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/b4704767-ee4b-4b6b-b0bd-9071aab4f886)
+![image](../img/luggagelock-1.png)
 
 Right click on the combination and click inspect:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/8ff756de-8aa8-4de2-8d4c-73f24fad09aa)
+![image](../img/luggagelock-2.png)
 
 In the developer tools, enter the following javascript into the console and sit back and relax!
 
@@ -66,8 +66,8 @@ function loop() {
 loop();
 ```
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/fcf7d67b-7f7f-45dd-917e-5cd9bd047a9b)
+![image](../img/luggagelock-3.png)
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/c775df48-61a7-4e09-92bf-541fd024f61b)
+![image](../img/luggagelock-4.png)
 
 ## Resources

@@ -42,7 +42,7 @@ Once I found the game, a web link to it is added to my items. By going to the we
 
 I played the game by using the B key to fire musical notes into the blocks in the QR Code. When you do this to a block that is movable, it will play a song for a short period while highlighting where the block is supposed to be.
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/e726fe77-43fb-463b-9817-d0d510fa8528)
+![image](../img/game1-1.png)
 
 I had to be careful pushing the blocks into place so I didn't get stuck in a position where I couldn't move another block into it's location, but in the end I was presented a QR Code that when scanned, gave me the message to solve the challenge.
 
@@ -50,7 +50,7 @@ The biggest challenge is solving the last block which had to be moved outside th
 
 After the last of the 7 blocks is in it's proper place, I was presented a QR code to scan and get the flag to solve the challenge:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/e4f1c525-d0ab-4281-8db5-7f0144911671)
+![image](../img/game1-2.png)
 
 https://8bitelf.com
 

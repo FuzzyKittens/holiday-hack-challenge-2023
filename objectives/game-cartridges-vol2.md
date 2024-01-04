@@ -80,11 +80,11 @@ Location old new
 00018514: 00 80
 ```
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/431fae17-e203-4707-b20c-86e5623474cc)
+![image](../img/game2-1.png)
 
 Once I hit the A button on the new item, I entered a room with a few more items:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/5c7d92f9-8c92-4835-98c8-2adeccd86421)
+![image](../img/game2-2.png)
 
 When I went to the radio in the room and hit the A button on it, there was audio with what appeared to be morse code tones:
 

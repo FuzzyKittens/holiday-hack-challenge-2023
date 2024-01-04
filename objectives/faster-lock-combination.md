@@ -27,7 +27,7 @@ Initial conversation:
 
 Spend a long time putting the correct pressure on a virtual Faster lock to open it, or mess with the javascript :)
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/4a40e353-2764-4d91-a010-4a5c55cb396b)
+![image](../img/fasterlock-1.png)
 
 
 ## Alternate approach
@@ -48,9 +48,9 @@ As an alternate approach, there are several ways you can interact with the javas
 
 Entering the combination 19-37-39:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/c0a235d2-2a9b-466c-abfe-ff191c8b9e09)
+![image](../img/fasterlock-2.png)
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/39f1eab5-4a48-4814-8e5e-72cb98f3ee13)
+![image](../img/fasterlock-3.png)
 
 
 ## Resources

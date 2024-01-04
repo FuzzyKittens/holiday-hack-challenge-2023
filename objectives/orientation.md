@@ -46,7 +46,7 @@ This one is intentionally simple. All we need you to do is:
 elf@53d3586a6ela:~$
 ```
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/00e65b5c-315b-425f-bc46-00f2ea6b0c6e)
+![image](../img/orientation-1.png)
 
 
 ## Alternate approach

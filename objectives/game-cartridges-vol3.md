@@ -41,27 +41,27 @@ After finding all three game cartridges:
 
 ## Approach
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/a23a2d9c-ec3b-46b5-add7-068958240d94)
+![image](../img/game3-1)
 
 I started by playing this game to understand what it entails. In this game, you collect coins by jumping into them.  The different levels have different values for the coins.  The first level starts with one of each, starting at 1, then 10 and finally 100. The subsequent levels have values of 1, 10 and 100 respectively.
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/c4c19b58-c92c-475b-9052-be69c648526f)
+![image](../img/game3-2)
 
 The interesting thing, is you never can get exactly 999 coins.  If you go over 999, you start back at 0.  If you land exactly on 999, you get an error:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/26211ec8-6fd4-4a8a-8447-5290c250ae44)
+![image](../img/game3-3)
 
 Once you make it to level 5, you run into NPC "Jared" who states "Back in my SysAdmin days, marketing always loved talking about [5] nines. But we all know it was more like [3] nines".
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/ad2d8e36-e160-4150-86e6-d54326757504)
+![image](../img/game3-4)
 
 Continuing on in level 5, you are presented an impossible jump that brings you back to the start of the game.
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/3aae4008-abc5-489f-b570-57985efc1271)
+![image](../img/game3-5)
 
 Knowing from the clues this has something to do with getting 999 coins, it's time to do some investigating. [BGB GameBoy emulator](https://bgb.bircd.org/) has a great feature that allows you to monitor memory changes. Right clicking the emulator screen and selecting other -> cheat searcher brings up a memory searcher to search for specific values or even values that change/stay the same as the previous value.
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/a8cfb0f5-f7dd-4f34-a932-750ff6059da5)
+![image](../img/game3-6)
 
 By playing around with this, collecting coins, searching for what changed in the cheat searcher and changing some of the values at those pointers, I was able to come to the conclusion:
 
@@ -78,11 +78,11 @@ C160=04(display value)   CB9E=04(actual value)
 
 By setting all the above to the value of 0x09, I finally both display 999 coins and actually have 999 coins. Interestingly, I also have some platforms that appear to help me get across the impossible jump:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/8b4973ce-47da-4bfa-9b5b-52ccd959b0a5)
+![image](../img/game3-7)
 
 By double-jumping on two different platforms, I am able to make it to the other side:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/53687758-5cfc-4b49-8426-afdb6d1a5e2e)
+![image](../img/game3-8)
 
 From there, I get to the end of the level and enter a room. Talking to the "Grumpy Man" NPC in the room:
 
@@ -106,13 +106,13 @@ Elf: If by "never" you mean I've filled my treasure pouch to the brim with coins
 
 Liston: How in the world did you... never mind. Say this passphrase "morethanmeetstheeye" to the ChatNPT thinger and then give it all your coins!
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/e0b26fa9-44d4-4ed6-b462-e09ddf26aabd)
+![image](../img/game3-9)
 
 Interacting with the other entity in the room:
 
 ChatNPT: Analyzing... Passphrase correct! Coin total correct! setting variable ROCKCANMOVE = TRUE
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/73bcb5d5-021c-4d94-ba97-44be10d3f8ad)
+![image](../img/game3-10)
 
 Interacting with rock in room:
 
@@ -126,7 +126,7 @@ Well if you can't beat'em, join'em.
 
 GLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORY!
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/d6ed2597-7e29-42b3-98d4-a53e9baaedc6)
+![image](../img/game3-11)
 
 ## Alternate approach
 

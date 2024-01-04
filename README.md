@@ -1,6 +1,6 @@
 # SANS Holiday Hack Challenge 2023
 
-[![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/81b91106-98b5-449c-bb9a-844361aa36cb)](https://www.sans.org/mlp/holiday-hack-challenge-2023/)
+[![image](./img/sans-banner.png)
 
 **Character: RealCyberDude**
 
@@ -41,5 +41,5 @@
 
 ---
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/c405acef-f415-4777-8d77-d68ebc2d6bf4)
+![image](./img/finale.png)
 

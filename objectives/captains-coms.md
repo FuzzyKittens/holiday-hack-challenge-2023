@@ -127,7 +127,7 @@ Clicking on the SDR and the center signal as radioDecoder:
 
 Clicking on the SDR and the right signal as radioDecoder:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/807727a9-2342-48c3-a0e2-84b13b446d28)
+![image](../img/captainscoms-1.png)
 
 Now I have the radioUser, radioMonitor and radioDecoder tokens, and I have the public key used to verify those tokens. I need to gain access to the private key so I can create my own radioAdministrator token.
 
@@ -210,7 +210,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJISEMgMjAyMyBDYXB0YWluJ3MgQ29tbXM
 
 Now, I simply paste the new token into the value of my justWatchThisRole cookie in any browser and can now use the radio.
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/3e3f08c7-415a-415f-b0aa-5212596c9612)
+![image](../img/captainscoms-2.png)
 
 So, now the next challenge is to solve the Go-Date and Go-Time.  I have the Frequency from the fax decoder on the SDR - **10426 Hz**.  The only thing I haven't solved yet is the numbers station decoder, so that's likely what contains the message about time and date. Looking back at it again, it is:
 
@@ -228,7 +228,7 @@ Thinking about this more, and looking at the cryptic message above - it appears 
 
 Mission accomplished!
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/bb10f14b-6759-4db0-bf2c-b0dfa8cc7ea2)
+![image](../img/captainscoms-3.png)
 
 ## Alternative Approach
 

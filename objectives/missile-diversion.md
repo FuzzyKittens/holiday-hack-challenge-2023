@@ -141,7 +141,7 @@ So I run the same process above but this time adding a semicolon before my sql q
 
 Now when I return to the parameter service and use getValue button on Debug, I receive results from my sql query:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/5f2cf582-f5eb-4c22-9870-c0cace4816cd)
+![image](../img/missilediversion-1.png)
 
 Now we're getting somewhere! Time to start surveying that database. Survey:
 
@@ -511,11 +511,11 @@ id: 2 | object: ??..sr..SatelliteQueryFileFolderUtility.???.???...Z..isQueryZ..i
 
 Update successfully ran, and now when I look at the parameter service and run the getValue on PointingMode, I see:
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/fc8e0049-d1d1-41e0-88ce-49b43724b2a3)
+![image](../img/missilediversion-2.png)
 
 Glorrrryyyyyy!
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/a0cf7504-e806-43d0-abd9-110f069e9ccf)
+![image](../img/missilediversion-3.png)
 
 ## Alternate approach
 

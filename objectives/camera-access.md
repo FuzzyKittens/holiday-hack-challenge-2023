@@ -171,7 +171,7 @@ $bytes = [Convert]::FromBase64String($base64)
 
 When I opened up the jpg, I was able to see the TODO list to finish the challenge!
 
-![image](https://github.com/FuzzyKittens/holiday-hack-challenge/assets/22179547/7b665c99-9886-4259-bc7b-64b8bc19292f)
+![image](../img/camera-access.jpg))
 
 ## Resources
 
