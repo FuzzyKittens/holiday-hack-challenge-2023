@@ -1,4 +1,5 @@
-# game-cartridges-vol1 :christmas_tree:
+# game-cartridges-vol1 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 
 Find the first Gamegosling cartridge and beat the game

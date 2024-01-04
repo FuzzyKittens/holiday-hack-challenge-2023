@@ -1,4 +1,5 @@
-# orientation :christmas_tree:
+# orientation <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 
 Talk to Jingle Ringford on Christmas Island and get your bearings at Geese Islands.

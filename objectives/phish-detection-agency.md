@@ -1,4 +1,5 @@
-# kql-kraken-hunt :christmas_tree::christmas_tree:
+# kql-kraken-hunt <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 
 Fitzy Shortstack on Film Noir Island needs help battling dastardly phishers. Help sort the good from the bad!

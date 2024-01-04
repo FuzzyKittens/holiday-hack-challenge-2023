@@ -1,4 +1,5 @@
-# azure-101 :christmas_tree::christmas_tree:
+# azure-101 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 
 Help Sparkle Redberry with some Azure command line skills. Find the elf and the terminal on Christmas Island.

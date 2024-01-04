@@ -1,4 +1,5 @@
-# camera-access :christmas_tree::christmas_tree::christmas_tree:
+# camera-access <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 Gain access to Jack's camera. What's the third item on Jack's TODO list?
 

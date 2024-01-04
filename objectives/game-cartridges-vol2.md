@@ -1,4 +1,5 @@
-# game-cartridges-vol2 :christmas_tree::christmas_tree::christmas_tree:
+# game-cartridges-vol2 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 
 Find the second Gamegosling cartridge and beat the game

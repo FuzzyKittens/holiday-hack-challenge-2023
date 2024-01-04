@@ -1,4 +1,5 @@
-# elf-hunt :christmas_tree::christmas_tree::christmas_tree:
+# elf-hunt <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 
 Piney Sappington needs a lesson in JSON web tokens. Hack Elf Hunt and score 75 points.

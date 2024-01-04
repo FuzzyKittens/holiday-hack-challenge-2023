@@ -1,4 +1,5 @@
-# certificate-sshenanigans :christmas_tree::christmas_tree::christmas_tree::christmas_tree::christmas_tree:
+# certificate-sshenanigans <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/>
+
 ## Objective
 Go to Pixel Island and review Alabaster Snowball's new SSH certificate configuration and Azure Function App. What type of cookie cache is Alabaster planning to implement? To solve this challenge, I need to retrieve Alabaster Snowball's TODO list. This is likely in the SSH server's filesystem somewhere.
 

@@ -1,4 +1,5 @@
-# door-access-speaker :christmas_tree::christmas_tree::christmas_tree:
+# door-access-speaker <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 There's a door that needs opening on Space Island! Talk to Jewel Loggins there for more information.
 

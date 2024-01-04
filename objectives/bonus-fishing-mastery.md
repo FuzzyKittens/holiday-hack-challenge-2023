@@ -1,4 +1,5 @@
-# bonus-fishing-mastery :christmas_tree::christmas_tree::christmas_tree::christmas_tree:
+# bonus-fishing-mastery <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 Catch at least one of each species of fish that live around Geese islands. When you're done, report your findings to Poinsettia McMittens.
 

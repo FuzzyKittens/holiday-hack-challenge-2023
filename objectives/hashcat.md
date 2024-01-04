@@ -1,4 +1,5 @@
-# hashcat :christmas_tree::christmas_tree:
+# hashcat <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
 ## Objective
 Eve Snowshoes is trying to recover a password. Head to the Island of Misfit Toys and take a crack at it!
 

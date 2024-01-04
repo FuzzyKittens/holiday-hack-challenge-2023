@@ -1,4 +1,4 @@
-# missile-diversion :christmas_tree::christmas_tree::christmas_tree::christmas_tree::christmas_tree:
+# missile-diversion <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/>
 ## Objective
 
 Thwart Jack's evil plan by re-aiming his missile at the Sun.
