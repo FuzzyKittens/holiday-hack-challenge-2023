@@ -44,27 +44,27 @@ After finding all three game cartridges:
 
 ## Approach
 
-![image](../img/game3-1)
+![image](../img/game3-1.png)
 
 I started by playing this game to understand what it entails. In this game, you collect coins by jumping into them.  The different levels have different values for the coins.  The first level starts with one of each, starting at 1, then 10 and finally 100. The subsequent levels have values of 1, 10 and 100 respectively.
 
-![image](../img/game3-2)
+![image](../img/game3-2.png)
 
 The interesting thing, is you never can get exactly 999 coins.  If you go over 999, you start back at 0.  If you land exactly on 999, you get an error:
 
-![image](../img/game3-3)
+![image](../img/game3-3.png)
 
 Once you make it to level 5, you run into NPC "Jared" who states "Back in my SysAdmin days, marketing always loved talking about [5] nines. But we all know it was more like [3] nines".
 
-![image](../img/game3-4)
+![image](../img/game3-4.png)
 
 Continuing on in level 5, you are presented an impossible jump that brings you back to the start of the game.
 
-![image](../img/game3-5)
+![image](../img/game3-5.png)
 
 Knowing from the clues this has something to do with getting 999 coins, it's time to do some investigating. [BGB GameBoy emulator](https://bgb.bircd.org/) has a great feature that allows you to monitor memory changes. Right clicking the emulator screen and selecting other -> cheat searcher brings up a memory searcher to search for specific values or even values that change/stay the same as the previous value.
 
-![image](../img/game3-6)
+![image](../img/game3-6.png)
 
 By playing around with this, collecting coins, searching for what changed in the cheat searcher and changing some of the values at those pointers, I was able to come to the conclusion:
 
@@ -81,11 +81,11 @@ C160=04(display value)   CB9E=04(actual value)
 
 By setting all the above to the value of 0x09, I finally both display 999 coins and actually have 999 coins. Interestingly, I also have some platforms that appear to help me get across the impossible jump:
 
-![image](../img/game3-7)
+![image](../img/game3-7.png)
 
 By double-jumping on two different platforms, I am able to make it to the other side:
 
-![image](../img/game3-8)
+![image](../img/game3-8.png)
 
 From there, I get to the end of the level and enter a room. Talking to the "Grumpy Man" NPC in the room:
 
@@ -109,13 +109,13 @@ Elf: If by "never" you mean I've filled my treasure pouch to the brim with coins
 
 Liston: How in the world did you... never mind. Say this passphrase "morethanmeetstheeye" to the ChatNPT thinger and then give it all your coins!
 
-![image](../img/game3-9)
+![image](../img/game3-9.png)
 
 Interacting with the other entity in the room:
 
 ChatNPT: Analyzing... Passphrase correct! Coin total correct! setting variable ROCKCANMOVE = TRUE
 
-![image](../img/game3-10)
+![image](../img/game3-10.png)
 
 Interacting with rock in room:
 
@@ -129,7 +129,7 @@ Well if you can't beat'em, join'em.
 
 GLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORY!
 
-![image](../img/game3-11)
+![image](../img/game3-11.png)
 
 ## Alternate approach
 
