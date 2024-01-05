@@ -41,6 +41,7 @@ Straight forward just brush up on KQL skills first:
 
 Case 1:
 
+```
 Email
 | where link == 'http://madelvesnorthpole.org/published/search/MonthlyInvoiceForReindeerFood.docx'
 | project recipient, sender, subject
