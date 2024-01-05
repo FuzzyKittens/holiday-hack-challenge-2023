@@ -8,6 +8,7 @@
 
 - [The Challenge](https://www.sans.org/mlp/holiday-hack-challenge-2023/)
 - [2023 Talks](https://www.youtube.com/playlist?list=PLjLd1hNA7YVyk7rsw8xsSTJtAr0l2RPm8)
+- [Consolidated Solutions](/objectives/all.md)
 
 
 ## Challenges
