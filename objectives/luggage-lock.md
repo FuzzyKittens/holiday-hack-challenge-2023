@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # luggage-lock <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Help Garland Candlesticks on the Island of Misfit Toys get back into his luggage by finding the correct position for all four dials
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -24,6 +32,8 @@ Initial conversation:
 
 - Check out Chris Elgee's [talk](https://youtu.be/ycM1hBSEyog) regarding his and his wife's luggage. Sounds weird but interesting!
 
+<!-- report-keep -->
+
 ## Useful AI Prompts
 
 - How do I introduce a delay in a javascript loop?
@@ -36,9 +46,13 @@ Simple approach - watch the talk above and put pressure on the latch and move th
 
 As an alternate approach, I could use the websocket to emit messages until the lock opens, but for fun let's just play with the existing functions and watch the lock spin and open.
 
-Simply start the game with four wheels:
+Simply start the game with four wheels.
+
+<!-- report-ignore -->
 
 ![image](../img/luggagelock-1.png)
+
+<!-- report-keep -->
 
 Right click on the combination and click inspect:
 
@@ -71,6 +85,12 @@ loop();
 
 ![image](../img/luggagelock-3.png)
 
+<!-- report-ignore -->
+
 ![image](../img/luggagelock-4.png)
 
+<!-- report-keep -->
+
 ## Resources
+
+[Chris Elgee's talk](https://youtu.be/ycM1hBSEyog)

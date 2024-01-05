@@ -1,9 +1,18 @@
+<!-- report-keep -->
+
 # active-directory <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
+<!-- report-ignore -->
 
 [< Back Home](../README.md)
 
+<!-- report-keep -->
+
 ## Objective
+
 Go to Steampunk Island and help Ribb Bonbowford audit the Azure AD environment. What's the name of the secret file in the inaccessible folder on the FileShare?
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -19,8 +28,11 @@ Initial conversation:
 - Since you have access to Alabaster's SSH account that means you're already in the Azure environment. Knowing Alabaster, there might even be some useful tools in place already.
 
 ## Hints
+
 - Certificates are everywhere. Did you know Active Directory (AD) uses certificates as well? Apparently the service used to manage them can have misconfigurations too.
 - It looks like Alabaster's SSH account has a couple of tools installed which might prove useful.
+
+<!-- report-keep -->
 
 ## Useful AI Prompts
 
@@ -28,6 +40,7 @@ Initial conversation:
 - Give me a short tutorial on using impacket
 
 ## Approach
+
 To gain an understanding of the AD environment, I'll use the Azure Linux machine to interact with the [Azure Instance Metadata Service API](https://learn.microsoft.com/en-us/azure/virtual-machines/instance-metadata-service?tabs=linux) to get the and then use that token in PowerShell to interact with the API.
 
 ```console
@@ -192,6 +205,7 @@ alabaster@ssh-server-vm:~/impacket$
 ```
 
 Looking for SMB shares:
+
 ```console
 alabaster@ssh-server-vm:~/impacket$ python3 smbclient.py northpole.local/elfy:'J4`ufC49/J4766'@10.0.0.53 -dc-ip 10.0.0.53
 Impacket v0.11.0 - Copyright 2023 Fortra
@@ -356,6 +370,7 @@ And he'll silently take his way.
 Well, that IS useful!
 
 ## Resources
+
 [AD CS Exploit Background](https://posts.specterops.io/certified-pre-owned-d95910965cd2)
 
 [Video explaining exploit](https://www.youtube.com/watch?v=HBRCI5O35R8)

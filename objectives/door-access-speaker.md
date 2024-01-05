@@ -1,9 +1,17 @@
+<!-- report-keep -->
+
 # door-access-speaker <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
+<!-- report-ignore -->
 
 [< Back Home](../README.md)
 
+<!-- report-keep -->
+
 ## Objective
 There's a door that needs opening on Space Island! Talk to Jewel Loggins there for more information.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -41,6 +49,8 @@ After solving challenge:
 - Wombley says a specific phrase into the Access Speaker. He works in the Research Department and everything they do it super secret, so it may be a challenge to find out what the phrase is. Ribb also works in that department. Try to find and ask him.
 - It seems the Access Speaker is programmed to only accept Wombley's voice. Maybe you could get a sample of his voice and use an AI tool to simulate Wombley speaking the passphrase.
 
+<!-- report-keep -->
+
 ## Useful AI Prompts
 
 - What AI tool can I use to generate an MP3 based on a real person's voice?
@@ -53,8 +63,7 @@ This one is straight forward after Active Directory is solved, the secret file c
 
 The tricky part, is that it is required to be said in Wombley Cube's voice for MFA.
   
-I went back to Space Island: Spaceport Point, as I noted down earlier in the challenge that Wombley Cube 
-was there with an audio book. After downloading his audio book, I now have his voice. Searching the internet for AI voice creation, I found several sites that had the capabilities. After 
+I went back to Space Island: Spaceport Point, as I noted down earlier in the challenge that Wombley Cube was there with an audio book. After downloading his audio book, I now have his voice. Searching the internet for AI voice creation, I found several sites that had the capabilities. After
 trying a few and signing up for a few, I found one site [PlayHT](https://play.ht/) which allowed free users to do the things I needed. I created a new voice profile with Wombley's audio book,
 and then used that voice to speak the passphrase. I tried a couple of times before it sounded correctly, and submitted the mp3 to the gate a few times with a few versions before I was successful.
 

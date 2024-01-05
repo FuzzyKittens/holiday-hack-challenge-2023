@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # elf-hunt <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Piney Sappington needs a lesson in JSON web tokens. Hack Elf Hunt and score 75 points.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -31,6 +39,8 @@ After solving challenge:
 ## Hints
 
 - Unlock the mysteries of JWTs with insights from [PortSwigger's JWT Guide](https://portswigger.net/web-security/jwt).
+
+<!-- report-keep -->
 
 ## Useful AI Prompts
 
@@ -59,3 +69,7 @@ There is something missing.  The JWT should have three parts separated by a "." 
 You can modify the JWT token (and therefor it's payload) because it is not signed and therefor the game is not validating the signature.  In the payload, speed is set to -500 but you can set it to anything using https://jwt.io and then pasting the encoded cookie back to your browser.
 
 ## Resources
+
+[JWT Dev](https://jwt.io)
+
+[PortSwigger's JWT Guide](https://portswigger.net/web-security/jwt)

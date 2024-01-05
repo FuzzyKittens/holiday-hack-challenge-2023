@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # game-cartridges-vol1 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Find the first Gamegosling cartridge and beat the game
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -37,7 +45,7 @@ After finding all three game cartridges:
 - Out of sight but not out of ear-shot.
 - You think you fixed the QR code? Did you scan it and see where it leads?
 
-## Useful AI Prompts
+<!-- report-keep -->
 
 ## Approach
 
@@ -58,7 +66,3 @@ After the last of the 7 blocks is in it's proper place, I was presented a QR cod
 https://8bitelf.com
 
 flag:santaconfusedgivingplanetsqrcode
-
-## Alternate approach
-
-## Resources

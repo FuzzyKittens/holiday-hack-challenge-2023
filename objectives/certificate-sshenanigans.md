@@ -1,9 +1,18 @@
+<!-- report-keep -->
+
 # certificate-sshenanigans <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/>
+
+<!-- report-ignore -->
 
 [< Back Home](../README.md)
 
+<!-- report-keep -->
+
 ## Objective
+
 Go to Pixel Island and review Alabaster Snowball's new SSH certificate configuration and Azure Function App. What type of cookie cache is Alabaster planning to implement? To solve this challenge, I need to retrieve Alabaster Snowball's TODO list. This is likely in the SSH server's filesystem somewhere.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -34,6 +43,8 @@ After solving challenge:
 - Check out Thomas Bouve's [talk and demo](https://youtu.be/4S0Rniyidt4) to learn all about how you can upgrade your SSH server configuration to leverage SSH certificates.
 - The [get-source-control](https://learn.microsoft.com/en-us/rest/api/appservice/web-apps/get-source-control) Azure REST API endpoint provides details about where an Azure Web App or Function App is deployed from.
 - Azure CLI tools aren't always available, but if you're on an Azure VM you can always use the [Azure REST API](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/how-to-use-vm-token) instead.
+
+<!-- report-keep -->
 
 ## Useful AI Prompts
 
@@ -83,7 +94,7 @@ Once into the server, I found myself at a sattelite tracking interface:
 └──────────────────────────────────────────────────────────────┘
 ```
 
-By simply entering 'ctrl-c, I was able to exit into the terminal.  Once here, I dug around a bit using the usual survey commands to see whether I could (or even needed to) escalate privs. One of the interesting files I came across was in the auth_principals folder of the ssh directory:
+By simply entering <kbd>Ctrl</kbd>-<kbd>c</kbd>, I was able to exit into the terminal.  Once here, I dug around a bit using the usual survey commands to see whether I could (or even needed to) escalate privs. One of the interesting files I came across was in the auth_principals folder of the ssh directory:
 
 ```console
 monitor@ssh-server-vm:/$ cd /etc/ssh/
@@ -252,7 +263,9 @@ In the output, I see some interesting things:
 ```
 
 Most notably: "repoUrl":"https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa","branch":"main"
-Navigating to https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa gives me full access to the sourcecode. Looking at function_app.py:
+Navigating to https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa gives me full access to the sourcecode. I first review function_app.py
+
+<!-- report-ignore -->
 
 ```python
 """Azure Function App to create SSH certificates."""
@@ -605,7 +618,9 @@ def create_cert(req: func.HttpRequest) -> func.HttpResponse:
     )
 ```
 
-Most notably, this line is intriguing based on what I have found so far:
+<!-- report-keep -->
+
+Most notably in that source code, this line is intriguing based on what I have found so far:
 
 ```python
 principal = data.get("principal", DEFAULT_PRINCIPAL)
@@ -662,6 +677,12 @@ alabaster@ssh-server-vm:~$ cat alabaster_todo.md
 
 All that's left, is to go back to the objective and answer the question based on the TODO list :)
 
-## Alternate approach
-
 ## Resources
+
+[Azure Function App](https://northpole-ssh-certs-fa.azurewebsites.net/api/create-cert?code=candy-cane-twirl)
+
+[talk and demo](https://youtu.be/4S0Rniyidt4)
+
+[get-source-control](https://learn.microsoft.com/en-us/rest/api/appservice/web-apps/get-source-control)
+
+[Azure REST API](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/how-to-use-vm-token)

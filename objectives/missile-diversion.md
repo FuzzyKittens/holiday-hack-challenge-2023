@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # missile-diversion <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Thwart Jack's evil plan by re-aiming his missile at the Sun.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -31,7 +39,7 @@ After solving challenge:
 - Use the door to the right to return to the resort lobby and see what happened!
 - Don't worry, I'll meet you there... trust me.
 
-## Hints
+<!-- report-keep -->
 
 ## Useful AI Prompts
 
@@ -41,6 +49,10 @@ After solving challenge:
 - How do I select a colum as Hex from an object in a MariaDB?
 
 ## Approach
+
+The setup of this is the same as camera access by setting up the docker container and setting up wireguard.
+
+<!-- report-ignore -->
 
 Clicking timetravel on the computer in the room after opening the terminal by clicking the gator icon on Space Island:Zenith SGS gave me the following:
 
@@ -103,6 +115,8 @@ root@4cea098994cf:~# gedit /etc/wireguard/wg0.conf
 root@4cea098994cf:~# wg-quick up wg0
 root@4cea098994cf:~# wg show
 ```
+
+<!-- report-keep -->
 
 Once that is complete, I right clicked the desktop where I found Satellite Tools -> Launch NanoSat MO Base Station Tool.  Pasting
 

@@ -1,12 +1,21 @@
+<!-- report-keep -->
+
 # linux-101 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
+<!-- report-ignore -->
 
 [< Back Home](../README.md)
 
+<!-- report-keep -->
+
 ## Objective
+
 Visit Ginger Breddie in Santa's Shack on Chrismas
 Island to help him with some basic Linux tasks.
 This is a simple linux familiarization of commands. Follow the
 prompts to enter several linux commands successfully.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -22,11 +31,10 @@ After soliving challenge:
 
 - Wow, if your surfing skills are as good as your Linux skills, you could be winning competitions!
 
-## Hints
-
-## Useful AI Prompts
+<!-- report-keep -->
 
 ## Approach
+
 Straight forward - enter the correct command. Use **hintme** if
 you need a hint.
 
@@ -54,7 +62,3 @@ netstat -napt
 curl 0.0.0.0:54321
 kill 5444
 ```
-
-## Alternate approach
-
-## Resources

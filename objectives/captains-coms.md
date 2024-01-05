@@ -1,9 +1,17 @@
+<!-- report-keep -->
+
 # captains-coms <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/>
+
+<!-- report-ignore -->
 
 [< Back Home](../README.md)
 
+<!-- report-keep -->
+
 ## Objective
 Speak with Chimney Scissorsticks on Steampunk Island about the interesting things the captain is hearing on his new Software Defined Radio. You'll need to assume the GeeseIslandsSuperChiefCommunicationsOfficer role.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -30,6 +38,8 @@ Chimney Scissorsticks
 - Find a private key, update an existing JWT!
 - Web Interception proxies like Burp and Zap make web sites fun!
 - I hear the Captain likes to abbreviate words in his filenames; shortening some words to just 1,2,3, or 4 letters.
+
+<!-- report-keep -->
 
 ## Useful AI Prompts
 
@@ -233,7 +243,6 @@ Mission accomplished!
 
 ![image](../img/captainscoms-3.png)
 
-## Alternative Approach
-
 ## Resources
+
 [Lincolnshire Poacher](https://www.numbers-stations.com/english/e03-the-lincolnshire-poacher/)

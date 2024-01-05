@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # faster-lock-combination <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Over on Steampunk Island, Bow Ninecandle is having trouble opening a padlock. Do some research and see if you can help open it!
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -22,16 +30,11 @@ Initial conversation:
 - After all, everyone knows that the key to holiday happiness is an accessible lavatory!
 - Let's dive into this challenge and hopefully, we won't have to 'hold it' for too long! Ready to help me out?
 
-## Hints
-
-## Useful AI Prompts
-
 ## Approach
 
 Spend a long time putting the correct pressure on a virtual Faster lock to open it, or mess with the javascript :)
 
 ![image](../img/fasterlock-1.png)
-
 
 ## Alternate approach
 
@@ -53,7 +56,6 @@ Entering the combination 19-37-39:
 
 ![image](../img/fasterlock-2.png)
 
+<!-- report-ignore -->
+
 ![image](../img/fasterlock-3.png)
-
-
-## Resources

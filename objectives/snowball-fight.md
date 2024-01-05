@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # snowball-fight <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Visit Christmas Island and talk to Morcel Nougat about this great new game. Team up with another player and show Morcel how to win against Santa!
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -59,7 +67,7 @@ After solving challenge:
 - Its easiest to grab a friend play with and beat Santa but tinkering with client-side variables can grant you all kinds of snowball fight super powers. You could even take on Santa and the elves solo!
 - Have an iframe in your document? Be sure to [select the right context](https://gist.github.com/chrisjd20/93771da596ca5e49043f148a845c469f) before meddling with JavaScript.
 
-## Useful AI Prompts
+<!-- report-keep -->
 
 ## Approach
 
@@ -73,6 +81,6 @@ santaObject.health = 0
 santaObject.name = 'Getting defeated'
 ```
 
-## Alternate approach
-
 ## Resources
+
+[select the right context](https://gist.github.com/chrisjd20/93771da596ca5e49043f148a845c469f)

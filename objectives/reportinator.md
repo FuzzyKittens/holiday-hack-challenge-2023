@@ -1,6 +1,12 @@
+<!-- report-keep -->
+
 # reportinator <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 Noel Boetie used ChatNPT to write a pentest report. He needs help
@@ -8,6 +14,8 @@ to understand which report findings are legitimate and which are
 hallucinations. Read through the report carefully and select
 either legitimate finding or hallucinated finding for each report
 element.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -33,7 +41,7 @@ After solving challenge:
 
 - I know AI sometimes can get specifics wrong unless the prompts are well written. Maybe chatNPT made some mistakes here.
 
-## Useful AI Prompts
+<!-- report-keep -->
 
 ## Approach
 For the approach, I spent some cycles reading through the report,
@@ -127,5 +135,3 @@ is a hallucination so the following is the answer:
 1. Legit
 1. Legit
 1. Hallucination
-
-## Alternate approach

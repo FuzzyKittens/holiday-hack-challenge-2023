@@ -1,9 +1,18 @@
+<!-- report-keep -->
+
 # hashcat <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
+<!-- report-ignore -->
 
 [< Back Home](../README.md)
 
+<!-- report-keep -->
+
 ## Objective
+
 Eve Snowshoes is trying to recover a password. Head to the Island of Misfit Toys and take a crack at it!
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -22,12 +31,17 @@ After solving Phish Detection Agency:
 
 ## Hints
 
+<!-- report-keep -->
+
 ## Useful AI Prompts
 
 - How do I use Hashcat to solve a hashed password using a word list?
 
 ## Approach
+
 I first simply logged into the terminal to see what I have to work with:
+
+<!-- report-ignore -->
 
 ```console
 In a realm of bytes and digital cheer,  
@@ -69,7 +83,11 @@ Merry Cracking to each, by the pixelated moon's light,
 May your hashes be merry, and your codes so right!
 
 * Determine the hash type in hash.txt and perform a wordlist cracking attempt to find which password is correct and submit it to /bin/runtoanswer .*
+```
 
+<!-- report-keep -->
+
+```console
 elf@a2f91bdb995f:~$ ls
 HELP  hash.txt  password_list.txt
 elf@a2f91bdb995f:~$ cat hash.txt
@@ -173,6 +191,8 @@ Your answer is correct!
 elf@a2f91bdb995f:/bin$ 
 ```
 
-## Alternate approach
-
 ## Resources
+
+[hashcat](https://hashcat.net/)
+
+[hashcat example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)

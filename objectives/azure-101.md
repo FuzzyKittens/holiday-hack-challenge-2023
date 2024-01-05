@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # azure-101 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Help Sparkle Redberry with some Azure command line skills. Find the elf and the terminal on Christmas Island.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -33,7 +41,7 @@ After solving challenge:
 
 - The Azure CLI tools come with a builtin help system, but Microsoft also provides this [handy cheatsheet](https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest).
 
-## Useful AI Prompts
+<!-- report-keep -->
 
 ## Approach
 
@@ -47,8 +55,6 @@ az functionapp list --resource-group northpole-rg1
 az vm list --resource-group northpole-rg2
 az vm run-command invoke --resource-group northpole-rg2 --name NP-VM1 --command-id RunShellScript --scripts "ls -l"
 ```
-
-## Alternate approach
 
 ## Resources
 

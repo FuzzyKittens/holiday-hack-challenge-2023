@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # game-cartridges-vol2 <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Find the second Gamegosling cartridge and beat the game
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -42,9 +50,11 @@ After finding all three game cartridges:
 - I think I may need to get a DIFFerent perspective.
 - I wonder if someone can give me a few pointers to swap.
 
+<!-- report-keep -->
+
 ## Useful AI Prompts
 
-- how do I compare two binary files in Windows?
+- How do I compare two binary files in Windows?
 
 ## Approach
 
@@ -102,8 +112,6 @@ GL0RY
 ```
 
 That's our answer - enter GL0RY into the challenge!
-
-## Alternate approach
 
 ## Resources
 

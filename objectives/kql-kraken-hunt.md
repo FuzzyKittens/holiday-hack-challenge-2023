@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # kql-kraken-hunt <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Use Azure Data Explorer to [uncover misdeeds](https://detective.kusto.io/sans2023) in Santa's IT enterprise. Go to Film Noir Island and talk to Tangle Coalbox for more information/
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -29,6 +37,8 @@ Initial conversation:
 - Do you need to find something that happened via a process? Pay attention to the ProcessEvents table!
 - Once you get into the [Kusto trainer](https://detective.kusto.io/sans2023), click the blue Train me for the case button to get familiar with KQL.
 - Looking for a file that was created on a victim system? Don't forget the FileCreationEvents table.
+
+<!-- report-keep -->
 
 ## Useful AI Prompts
 
@@ -142,8 +152,6 @@ Which decodes to:
 ```kql
 Beware the Cube that Wombles
 ```
-
-## Alternate approach
 
 ## Resources
 

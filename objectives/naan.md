@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # naan <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Shifty McShuffles is hustling cards on Film Noir Island. Outwit that meddling elf and win!
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -24,18 +32,17 @@ Initial conversation:
 - Try to outsmart Shifty by sending him an error he may not understand.
 - Shifty said his deck of cards is made with Python. Surely there's a [weakness](https://www.tenable.com/blog/python-nan-injection) to give you the upper hand in his game.
 
+<!-- report-keep -->
+
 ## Useful AI Prompts
 
 - Explain how python handles NaN
-- What does this regex do: ^[n0-9][na]{0,2}$
 
 ## Approach
 
 Because Python is actually “duck typed”, and the inputs aren't properly validated in this Python game, there is a very simple solution to winning this card game:
 
 0,1,8,9,NaN - always wins
-
-## Alternate approach
 
 ## Resources
 

@@ -1,10 +1,18 @@
+<!-- report-keep -->
+
 # bonus-fishing-mastery <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
 
+<!-- report-ignore -->
+
 [< Back Home](../README.md)
+
+<!-- report-keep -->
 
 ## Objective
 
 Catch at least one of each species of fish that live around Geese islands. When you're done, report your findings to Poinsettia McMittens.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -37,6 +45,8 @@ After catching all 171 species:
 - Perhaps there are some clues about the local aquatic life located in the HTML source code.
 - One approach to automating web tasks entails the browser's developer console. Browsers' console allow us to manipulate objects, inspect code, and even interact with [websockets](https://javascript.info/websocket).
 - There are a variety of strategies for automating repetative website tasks. Tools such as [AutoKey](https://github.com/autokey/autokey) and [AutoIt](https://www.autoitscript.com/site/) allow you to programmatically examine elements on the screen and emulate user inputs.
+
+<!-- report-keep -->
 
 ## Useful AI Prompts
 
@@ -71,6 +81,7 @@ If you would like to see a json representation of all the fish you have caught, 
 ```console
 > playerData.fishCaught
 ```
+<!-- report-ignore -->
 
 All Fish:
 
@@ -933,6 +944,8 @@ All Fish:
     }
 ]
 ```
+
+<!-- report-keep -->
 
 ## Alternative Approach
 

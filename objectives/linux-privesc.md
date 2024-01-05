@@ -1,9 +1,18 @@
+<!-- report-keep -->
+
 # linux-privesc <img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-red.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/><img src="../img/tree-outline.png" alt="drawing" width="20"/>
+
+<!-- report-ignore -->
 
 [< Back Home](../README.md)
 
+<!-- report-keep -->
+
 ## Objective
+
 Rose mold is in Ostrich Saloon on the Island of Misfit Toys. Give her a hand with escalation for a tip about hidden islands.
+
+<!-- report-ignore -->
 
 ## Conversations
 
@@ -32,9 +41,10 @@ After solving challengs:
 - Use the privileged binary to overwriting a file to escalate privileges could be a solution, but there's an easier method if you pass it a crafty argument.
 - There's [various ways](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/) to escalate privileges on a Linux system.
 
-## Useful AI Prompts
+<!-- report-keep -->
 
 ## Approach
+
 For this approach, I first went through the normal Linux survey commands upon connection. Nothing really stood out, so I began looking for exploits related to the Linux distro which is Linux 3a7ac2253603 5.10.0-26-cloud-amd64.
 Looking for exploits, there were some viable ones, but they would have taken some work. I spent some time reviewing [this](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/). I then pivoted to looking for a way to exploit SUID executables,
 and found the following:
@@ -52,7 +62,7 @@ elf@408ce566d9d0:~$ find / -perm -u=s -type f 2>/dev/null
 /usr/bin/simplecopy
 ```
 
-At first, I went down some rabbit holes trying to think of a way to exploit one of those executables, so I went on to other challenges. I then had an epiphany - what if I grabbed the /etc/passwd file, copied it, modified the copied version so root doesn't use /etc/shadow/ and then used simplecopy to copy it back to /etc/passwd? (SMH) 
+At first, I went down some rabbit holes trying to think of a way to exploit one of those executables, so I went on to other challenges. I then had an epiphany - what if I grabbed the /etc/passwd file, copied it, modified the copied version so root doesn't use /etc/shadow/ and then used simplecopy to copy it back to /etc/passwd?
 
 Exploit:
 ```console
@@ -92,6 +102,6 @@ Who delivers Christmas presents?
 
 When you execute runmetoanswer, your answer is case sensitive :)
 
-## Alternate approach
-
 ## Resources
+
+[Linux Privilege Escalation](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/)
