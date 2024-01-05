@@ -41,7 +41,7 @@ Straight forward just brush up on KQL skills first:
 
 Case 1:
 
-```
+```kql
 Email
 | where link == 'http://madelvesnorthpole.org/published/search/MonthlyInvoiceForReindeerFood.docx'
 | project recipient, sender, subject
@@ -53,7 +53,7 @@ Email
 
 Case 2:
 
-```
+```kql
 Email
 | where link == 'http://madelvesnorthpole.org/published/search/MonthlyInvoiceForReindeerFood.docx'
 | join kind = inner Employees on $left.recipient == $right.email_addr
@@ -66,7 +66,7 @@ Email
 
 Case 3:
 
-```
+```kql
 OutboundNetworkEvents
 | join kind = inner Employees on $left.src_ip == $right.ip_addr
 | where url == 'http://madelvesnorthpole.org/published/search/MonthlyInvoiceForReindeerFood.docx'
@@ -75,7 +75,7 @@ OutboundNetworkEvents
 "timestamp": 2023-12-02T10:12:42Z
 ```
 
-```
+```kql
 FileCreationEvents
 | where hostname == "Y1US-DESKTOP"
 | where timestamp >= todatetime("2023-12-02T09:37:40Z")
@@ -87,7 +87,7 @@ FileCreationEvents
 
 Case 4:
 
-```
+```kql
 ProcessEvents
 | where hostname == "Y1US-DESKTOP"
 | where timestamp >= todatetime("2023-12-02T10:12:42Z")
@@ -102,7 +102,7 @@ NorthPolefileshare
 
 Case 5:
 
-```
+```kql
 ProcessEvents
 | where hostname == "Y1US-DESKTOP"
 | where timestamp >= todatetime("2023-12-02T10:12:42Z")
@@ -117,7 +117,7 @@ giftbox.com
 
 Case 6:
 
-```
+```kql
 ProcessEvents
 | where hostname == "Y1US-DESKTOP"
 | where timestamp >= todatetime("2023-12-02T10:12:42Z")
@@ -133,13 +133,13 @@ Once Complete:
 
 Once complete with all the cases, to get credit I need to enter the secret phrase:
 
-```
+```kql
 print base64_decode_tostring('QmV3YXJlIHRoZSBDdWJlIHRoYXQgV29tYmxlcw==')
 ```
 
 Which decodes to:
 
-```
+```kql
 Beware the Cube that Wombles
 ```
 

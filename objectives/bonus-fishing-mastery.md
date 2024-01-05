@@ -3,6 +3,7 @@
 [< Back Home](../README.md)
 
 ## Objective
+
 Catch at least one of each species of fish that live around Geese islands. When you're done, report your findings to Poinsettia McMittens.
 
 ## Conversations
@@ -42,6 +43,7 @@ After catching all 171 species:
 - How do I introduce a delay in a javascript loop?
 
 ## Approach
+
 To automate fishing, I wrote a javascript loop to fish while I'm away. There are 171 total fish species.
 
 ```javascript
@@ -53,7 +55,7 @@ function loop() {
         if (reelItInBtn.innerText == 'Reel it in!') {
             reelItInBtn.click()
             document.querySelector('.cotd button.closefeesh').click();
-	    var totalFish = playerData.fishCaught.length;
+            var totalFish = playerData.fishCaught.length;
             console.log("Total Fish: " + totalFish);
         }
     loop();
@@ -61,6 +63,7 @@ function loop() {
 }
 loop()
 ```
+
 Additionally, I used the [fish density maps](https://2023.holidayhackchallenge.com/sea/fishdensityref.html) (found commented out in the source code) to help know where to catch the remaining fish.
 
 If you would like to see a json representation of all the fish you have caught, simply right click on the ocean and click inspect.  Then in the Console, enter:

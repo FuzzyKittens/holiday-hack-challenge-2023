@@ -100,7 +100,7 @@ AllowedIPs = 10.1.1.1/32
 ###END####
 ```
 
-Next, I downloading the zip from the Ground station client vending machine, I found a readme.md file which I used to help setup my docker instance:
+Next, I download the zip from the Ground station client vending machine, I found a readme.md file which I used to help setup my docker instance:
 
 ```bash
 ┌──(root㉿kali)-[~]
