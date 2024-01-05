@@ -239,7 +239,7 @@ Reviewing the [Lincolnshire Poacher](https://www.numbers-stations.com/english/e0
 
 Also, to refresh my memory, I talked to Chimney Scissorsticks again and he states a couple different ways "Remember, the captain's abbreviations are your guiding light through this mystery!"
 
-Thinking about this more, and looking at the cryptic message above - it appears to be a date and a time followed by a 9. Remembering (need to add where I found this) that someone told me to try send a signal out four hours earlier, I put 1224 for the date and 1600-400 = 1200 for the time.
+Thinking about this more, and looking at the cryptic message above - it appears to be a date and a time followed by a 9. Remembering that one of the elves told me to try send a signal out four hours earlier, I put 1224 for the date and 1600-400 = 1200 for the time.
 
 Mission accomplished!
 
