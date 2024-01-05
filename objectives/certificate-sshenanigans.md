@@ -53,6 +53,7 @@ After solving challenge:
 - How can I get a token for Azure API from an Azure Linux virtual machine?
 
 ## Approach
+
 This one is interesting, and has multiple layers.  I began by reading between the lines to Alabaster Snowball's talk, which included something about checking out his new ssh server using monitor. To begin, I created a keypair (on windows) by issing the following command:
 
 ```console
@@ -112,7 +113,7 @@ admin
 monitor@ssh-server-vm:/etc/ssh/auth_principals$
 ```
 
-Looking at this, it is evident that even if I create a certificate for alabaster@ssh-server-vm.santaworkshopgeeseislands.org, I won't be able to authorize due to alabaster user only able to auth to ssh with the admin principal. The Azure Function App seems to automatically give the elf principal, although now that has me curious as to how it chooses to do so. I think it's time to see if I can find the source code for the Azure Function App.
+Looking at this, it is evident that even if I create a certificate for `alabaster@ssh-server-vm.santaworkshopgeeseislands.org`, I won't be able to authorize due to alabaster user only able to auth to ssh with the admin principal. The Azure Function App seems to automatically give the elf principal, although now that has me curious as to how it chooses to do so. I think it's time to see if I can find the source code for the Azure Function App.
 To start, I suspect this server might be an Azure VM and if so, there are some things I can do to interact with the Azure API.  Starting with the Azure Instance Metadata service, because it is only accessible from an Azure VM and doesn't require a token to authenticate the way the standard API does. I begin with the following api using curl:
 
 ```console
@@ -248,22 +249,23 @@ This will return a json object with the access token:
 {"access_token":"eyJ0eXAi...","client_id":"b84e06d3-aba1-4bcc-9626-2e0d76cba2ce","expires_in":"85901","expires_on":"1702429034","ext_expires_in":"86399","not_before":"1702342334","resource":"https://management.azure.com/","token_type":"Bearer"}
 ```
 
-Using that token, and the SubscriptionID, Resource Group and Function App Name, I now hit the source controls Azure API with the token in the header: https://management.azure.com/subscriptions/2b0942f3-9bca-484b-a508-abdae2db5e64/resourceGroups/northpole-rg1/providers/Microsoft.Web/sites/northpole-ssh-certs-fa/sourcecontrols/web?api-version=2022-03-01
+Using that token, and the SubscriptionID, Resource Group and Function App Name, I now hit the source controls Azure API with the token in the header: `https://management.azure.com/subscriptions/2b0942f3-9bca-484b-a508-abdae2db5e64/resourceGroups/northpole-rg1/providers/Microsoft.Web/sites/northpole-ssh-certs-fa/sourcecontrols/web?api-version=2022-03-01`
 I'm going to store the results in output.json in the monitor's home directory:
 
 ```console
 cd /home/monitor
-curl "https://management.azure.com/subscriptions/2b0942f3-9bca-484b-a508-abdae2db5e64/resourceGroups/northpole-rg1/providers/Microsoft.Web/sites/northpole-ssh-certs-fa/sourcecontrols/web?api-version=2022-03-01" -H "Authorization:Bearer eyJ0eXAi..." -H "Content-Type:application/json" -o output.json -D - -s
+curl "`https://management.azure.com/subscriptions/2b0942f3-9bca-484b-a508-abdae2db5e64/resourceGroups/northpole-rg1/providers/Microsoft.Web/sites/northpole-ssh-certs-fa/sourcecontrols/web?api-version=2022-03-01`" -H "Authorization:Bearer eyJ0eXAi..." -H "Content-Type:application/json" -o output.json -D - -s
 cat output.json
 ```
 
 In the output, I see some interesting things:
+
 ```json
 {"id":"/subscriptions/2b0942f3-9bca-484b-a508-abdae2db5e64/resourceGroups/northpole-rg1/providers/Microsoft.Web/sites/northpole-ssh-certs-fa/sourcecontrols/web","name":"northpole-ssh-certs-fa","type":"Microsoft.Web/sites/sourcecontrols","location":"East US","tags":{"project":"northpole-ssh-certs","create-cert-func-url-path":"/api/create-cert?code=candy-cane-twirl"},"properties":{"repoUrl":"https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa","branch":"main","isManualIntegration":false,"isGitHubAction":true,"deploymentRollbackEnabled":false,"isMercurial":false,"provisioningState":"Succeeded","gitHubActionConfiguration":{"codeConfiguration":null,"containerConfiguration":null,"isLinux":true,"generateWorkflowFile":true,"workflowSettings":{"appType":"functionapp","publishType":"code","os":"linux","variables":{"runtimeVersion":"3.11"},"runtimeStack":"python","workflowApiVersion":"2020-12-01","useCanaryFusionServer":false,"authType":"publishprofile"}}}}
 ```
 
-Most notably: "repoUrl":"https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa","branch":"main"
-Navigating to https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa gives me full access to the sourcecode. I first review function_app.py
+Most notably: "repoUrl":"`https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa`","branch":"main"
+Navigating to [https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa](https://github.com/SantaWorkshopGeeseIslandsDevOps/northpole-ssh-certs-fa) gives me full access to the sourcecode. I first review function_app.py
 
 <!-- report-ignore -->
 
@@ -626,7 +628,7 @@ Most notably in that source code, this line is intriguing based on what I have f
 principal = data.get("principal", DEFAULT_PRINCIPAL)
 ```
 
-If I adjust my post message to the Request SSH Certificate Azure App, I should be able to get a signed certificate with admin as the principal. I will use powershell for that, but first I need to create a new keypair for the user alabaster@santaworkshopgeeseislands.org, and save those public and private keys to the same ssh directory as I did for monitor.
+If I adjust my post message to the Request SSH Certificate Azure App, I should be able to get a signed certificate with admin as the principal. I will use powershell for that, but first I need to create a new keypair for the user `alabaster@santaworkshopgeeseislands.org`, and save those public and private keys to the same ssh directory as I did for monitor.
 
 ```console
 ssh-keygen -t rsa -C "alabaster@santaworkshopgeeseislands.org"

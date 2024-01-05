@@ -65,6 +65,7 @@ elf@408ce566d9d0:~$ find / -perm -u=s -type f 2>/dev/null
 At first, I went down some rabbit holes trying to think of a way to exploit one of those executables, so I went on to other challenges. I then had an epiphany - what if I grabbed the /etc/passwd file, copied it, modified the copied version so root doesn't use /etc/shadow/ and then used simplecopy to copy it back to /etc/passwd?
 
 Exploit:
+
 ```console
 In a digital winter wonderland we play,
 Where elves and bytes in harmony lay.

@@ -30,6 +30,7 @@ Initial conversation:
 - For some reason, I can't move when you're nearby, but if I could, I would surely stop you!
 
 After solving challenge:
+
 - A... missile... aimed for Santa's sleigh? I had no idea...
 - I can't believe I was manipulated like this. I've been trained to recognize these kinds of tactics!
 - Santa should never have put the holiday season at risk like he did, but I didn't know Jack's true intentions.
@@ -521,6 +522,7 @@ And now I have my exploit:
 ```
 
 After running the exploit, querying the satellite_query table now gives me:
+
 ```
 ; select * from satellite_query;
 id: 2 | object: ??..sr..SatelliteQueryFileFolderUtility.???.???...Z..isQueryZ..isUpdateL..pathOrStatementt..Ljava/lang/String;xp..t.4UPDATE pointing_mode SET numerical_mode=1 WHERE id=1 | results: SQL Update completed. |

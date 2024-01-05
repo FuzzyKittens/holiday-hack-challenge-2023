@@ -95,7 +95,7 @@ $krb5asrep$23$alabaster_snowball@XMAS.LOCAL:22865a2bceeaa73227ea4021879eda02$8f0
 elf@a2f91bdb995f:~$ 
 ```
 
-Looking at the hash, and referencing https://hashcat.net/wiki/doku.php?id=example_hashes, I recognize this hash as type kerberos 5 etype 23 as-rep (18200).
+Looking at the hash, and referencing [https://hashcat.net/wiki/doku.php?id=example_hashes](https://hashcat.net/wiki/doku.php?id=example_hashes), I recognize this hash as type kerberos 5 etype 23 as-rep (18200).
 
 I simply return to the terminal and run hashcat against it since we have a password_list.txt:
 

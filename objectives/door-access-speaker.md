@@ -9,6 +9,7 @@
 <!-- report-keep -->
 
 ## Objective
+
 There's a door that needs opening on Space Island! Talk to Jewel Loggins there for more information.
 
 <!-- report-ignore -->

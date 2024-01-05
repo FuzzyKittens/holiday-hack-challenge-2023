@@ -9,6 +9,7 @@
 <!-- report-keep -->
 
 ## Objective
+
 Noel Boetie used ChatNPT to write a pentest report. He needs help
 to understand which report findings are legitimate and which are
 hallucinations. Read through the report carefully and select
@@ -44,6 +45,7 @@ After solving challenge:
 <!-- report-keep -->
 
 ## Approach
+
 For the approach, I spent some cycles reading through the report,
 running the report through chat GPT and Bing chat enterprise, but
 found a brute force approach will be most efficient. The application
@@ -60,6 +62,7 @@ new var "error" to establish something to stop iterating if we
 find a successful combination of values.
 
 Existing code in **main.js** (starting at line 83):
+
 ```javascript
                 .then(data => {
                     if (data.error && data.error === 'FAILURE') {
@@ -71,6 +74,7 @@ Existing code in **main.js** (starting at line 83):
 ```
 
 Modified code:
+
 ```javascript
                 .then(data => {
                     if (data.error && data.error === 'FAILURE') {
@@ -91,8 +95,8 @@ will want to run through the console.
 function changeSelections(iter) {
     var selection = iter.toString(2).split('');
     for (let i = 0; i < 9; i++) {
-    	if (selection[i] == undefined) {
-	    selection.unshift('0');
+        if (selection[i] == undefined) {
+        selection.unshift('0');
         }
     }
     //now that selection is fully populated, we must iterate through one more time to change all the values on the html document
@@ -126,6 +130,7 @@ Running the above code in the console successfully finds a
 binary combination at iteration 73 of 001001001.  A value
 of 0 means finding is legit and value of 1 means finding
 is a hallucination so the following is the answer:
+
 1. Legit
 1. Legit
 1. Hallucination

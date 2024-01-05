@@ -30,6 +30,8 @@ Initial conversation:
 - After all, everyone knows that the key to holiday happiness is an accessible lavatory!
 - Let's dive into this challenge and hopefully, we won't have to 'hold it' for too long! Ready to help me out?
 
+<!-- report-keep -->
+
 ## Approach
 
 Spend a long time putting the correct pressure on a virtual Faster lock to open it, or mess with the javascript :)

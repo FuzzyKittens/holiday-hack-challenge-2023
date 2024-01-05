@@ -9,6 +9,7 @@
 <!-- report-keep -->
 
 ## Objective
+
 Speak with Chimney Scissorsticks on Steampunk Island about the interesting things the captain is hearing on his new Software Defined Radio. You'll need to assume the GeeseIslandsSuperChiefCommunicationsOfficer role.
 
 <!-- report-ignore -->
@@ -128,6 +129,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJISEMgMjAyMyBDYXB0YWluJ3MgQ29tbXM
 NICE! Now able to get to work with the radioDecoder role on the SDR by entering the above toek into the value of my justWatchThisRole cookie.
 
 Clicking on the SDR and the left signal as radioDecoder:
+
 ```
 . . . CQ CQ DE KH644 -- SILLY CAPTAIN! WE FOUND HIS FANCY RADIO PRIVATE KEY IN A FOLDER CALLED TH3CAPSPR1V4T3F0LD3R . . .
 ```

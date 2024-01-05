@@ -63,6 +63,6 @@ After the last of the 7 blocks is in it's proper place, I was presented a QR cod
 
 ![image](../img/game1-2.png)
 
-https://8bitelf.com
+[https://8bitelf.com](https://8bitelf.com)
 
 flag:santaconfusedgivingplanetsqrcode

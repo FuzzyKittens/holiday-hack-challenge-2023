@@ -64,9 +64,9 @@ Okay fine - you want to modify the JWT.  Opening up developer tools, and going t
 eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzcGVlZCI6LTUwMH0.
 ```
 
-There is something missing.  The JWT should have three parts separated by a "." - the Header, payload and signature. If we look at the JWT above, we can see there is a header and payload, but no signature. 
+There is something missing.  The JWT should have three parts separated by a "." - the Header, payload and signature. If we look at the JWT above, we can see there is a header and payload, but no signature.
 
-You can modify the JWT token (and therefor it's payload) because it is not signed and therefor the game is not validating the signature.  In the payload, speed is set to -500 but you can set it to anything using https://jwt.io and then pasting the encoded cookie back to your browser.
+You can modify the JWT token (and therefor it's payload) because it is not signed and therefor the game is not validating the signature.  In the payload, speed is set to -500 but you can set it to anything using [https://jwt.io](https://jwt.io) and then pasting the encoded cookie back to your browser.
 
 ## Resources
 
