@@ -31,7 +31,7 @@ $files = @(
 $reportHeader = @"
 # SANS Holiday Hack Contest 2023
 
-![image](../img/sans-banner.png)
+![image](https://raw.githubusercontent.com/FuzzyKittens/holiday-hack-challenge-2023/main/img/sans-banner.png)
 
 **Character: RealCyberDude**
 
@@ -93,7 +93,7 @@ foreach ($file in $files) {
 }
 
 $reportFooter = @"
-![image](../img/finale.png)
+![image](https://raw.githubusercontent.com/FuzzyKittens/holiday-hack-challenge-2023/main/img/finale.png)
 
 A more thorough report can be found at: **[https://fuzzykittens.github.io/holiday-hack-challenge-2023](https://fuzzykittens.github.io/holiday-hack-challenge-2023)**
 
