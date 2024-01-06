@@ -66,7 +66,7 @@ A more thorough report can be found at: **[https://fuzzykittens.github.io/holida
 1. [Bonus! Fishing Mastery](./report.md#bonus-fishing-mastery-)
 "@
 
-$reportHeader | Out-File -FilePath $report -Append
+$reportHeader | Out-File -FilePath $report
 
 foreach ($file in $files) {
     $contents = Get-Content -Path $(Join-Path -Path $path -ChildPath $file) -Encoding UTF8
