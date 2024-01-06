@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - objectives/**
+      - maps/**
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build release
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.hhc2023_secret }}
+
+      - name: Run build script
+        run: ./build/build.ps1
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Kory Kliner"
+          git config --global user.email "Kory.Kliner@outlook.com"
+
+          git add -A
+          git commit -m "Auto Build"
+          git push
