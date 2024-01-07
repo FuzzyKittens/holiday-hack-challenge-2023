@@ -162,9 +162,6 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED         STATUS     
 0181a4c2295e   nmf_client   "/__cacert_entrypoin…"   4 minutes ago   Up 4 minutes   0.0.0.0:5900->5900/tcp, :::5900->5900/tcp, 0.0.0.0:6901->6901/tcp, :::6901->6901/tcp   priceless_williamson
                                                                              
 ┌──(root㉿kali)-[/home/kali/Desktop/docker]
-└─# docker cp 0181a4c2295e:/root/run.sh /home/kali/Desktop 
-                                                                             
-┌──(root㉿kali)-[/home/kali/Desktop/docker]
 └─# docker cp 0181a4c2295e:/root/capture.pcapng /home/kali/Desktop
 
 ┌──(root㉿kali)-[/home/kali/Desktop/docker]
