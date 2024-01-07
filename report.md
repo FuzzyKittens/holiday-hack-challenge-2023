@@ -1279,7 +1279,7 @@ I'm going to store the results in output.json in the monitor's home directory:
 
 ```console
 cd /home/monitor
-curl "`https://management.azure.com/subscriptions/2b0942f3-9bca-484b-a508-abdae2db5e64/resourceGroups/northpole-rg1/providers/Microsoft.Web/sites/northpole-ssh-certs-fa/sourcecontrols/web?api-version=2022-03-01`" -H "Authorization:Bearer eyJ0eXAi..." -H "Content-Type:application/json" -o output.json -D - -s
+curl "https://management.azure.com/subscriptions/2b0942f3-9bca-484b-a508-abdae2db5e64/resourceGroups/northpole-rg1/providers/Microsoft.Web/sites/northpole-ssh-certs-fa/sourcecontrols/web?api-version=2022-03-01" -H "Authorization:Bearer eyJ0eXAi..." -H "Content-Type:application/json" -o output.json -D - -s
 cat output.json
 ```
 
