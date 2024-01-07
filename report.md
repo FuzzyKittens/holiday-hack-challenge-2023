@@ -914,7 +914,7 @@ Looking at the hash, and referencing [https://hashcat.net/wiki/doku.php?id=examp
 I simply return to the terminal and run hashcat against it since we have a password_list.txt:
 
 ```console
-hashcat -w 1 -u 1 --kernel-accel 1 --kernel-loops 1 -m 18200 -o crackedpassword.txt hash.txt password_list.txt --force ls
+hashcat -w 1 -u 1 --kernel-accel 1 --kernel-loops 1 -m 18200 -o crackedpassword.txt hash.txt password_list.txt --force
 ```
 
 After a few moments, I have the password:
